@@ -1,0 +1,40 @@
+{
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  //根据文件后缀名定义vue文件类型
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  //配置 ESLint 检查的文件类型
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  //保存时eslint自动修复错误
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  // 强制单引号
+  "prettier.singleQuote": false,
+  // 尾随逗号
+  "prettier.trailingComma": "all",
+  "vetur.dev.logLevel": "DEBUG",
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "singleQuote": true,
+      "semi": false,
+      "eslintIntegration": true,
+    }
+  },
+}
